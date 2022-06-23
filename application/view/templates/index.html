@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GAMEFICADA</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<!----                          Cabeçalho                     ---->
+
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Game<span>ficada</span></h2>
+<!--
+			<ul>
+				<li><a href="#">Início</a></li>
+
+				<li><a href="{{ url_for('sobre') }}">Sobre</a></li> 			
+
+				<li><a href="#">Competitivos</a></li>
+				<li><a href="#">Jogadores</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+			<a href="#" class="btn">Inscreva-se</a>
+//-->
+		</nav>
+
+		<div class='content'>
+			<h4>Olá, somos a equipe</h4>
+			<h1>Game <span>ficada</span></h1>
+			<h3>Fique por dentro de todas as novidades:</h3>
+			<div class='newslatter'>
+
+<!--				               formulário de email com botão enviar
+				<form>
+					<input type='email' name='email' id='email' placeholder='Informe seu email...'>
+					<input type='submit' name='submit' value='Enviar'>
+				</form>
+//-->
+			</div>
+		</div>
+	</div>
+
+	<!----           PAGINA SOBRE       ---->
+
+	<section class="about">
+		<div class="main">
+			<img src="{{ url_for('static', filename='gameficadauv.jpg') }}">
+			<div class="about-text">
+				<h2>Sobre nós:</h2>
+				<h5>Equipe <span>Gameficada</span></h5>
+				<p>Nós somos a equipe Gameficada.</p>
+
+<!----                    botão fale conosco
+				<button type="button">Fale conosco</button>
+---->
+
+			</div>
+		</div>
+	</section>
+
+
+	<!-----      SAIBA MAIS         
+
+
+	<div class="service">
+
+		<div class="title">
+			<h2>Saiba mais:</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Nossos projetos</h5>
+				<div class="pra">
+					<p>Conheça nossos projetos...</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Veja mais</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Equipes</h5>
+				<div class="pra">
+					<p>Conheça as nossas Lines</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Veja mais</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Últimas notícias</h5>
+				<div class="pra">
+					<p>...</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Veja mais</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+													BOTÃO COMO FAZER PARTE DA GAMEFICADA SAIBA MAIS
+
+	<div class="contact-me">
+		<p>Como fazer parte da equipe Gameficada?</p>
+		<a class="button-two" href="#">Saiba mais...</a>
+	</div>
+----------->
+
+	<footer>
+		<p>GAMEFICADA</p>
+		<p>Acompanhe a equipe através das redes sociais:</p>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+		</div>
+		<p class="end">CopyRight By Gameficada</p>
+	</footer>
+</body>
+</html>
