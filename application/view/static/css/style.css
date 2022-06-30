@@ -5,9 +5,9 @@
 	box-sizing: border-box;
 }
 .hero{
-	height: 100vh;
+	height: 80vh;
 	width: 100%;
-	background-image: url(../gameficada.jpg);
+	background-image: url(../gameficadauv.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -301,4 +301,9 @@ footer p:nth-child(2){
 	color:#f9004d;
 	bottom: 35px;
 	font-size: 14px; 
+}
+
+.sobre {
+	width: 20;
+	height: 25;
 }
